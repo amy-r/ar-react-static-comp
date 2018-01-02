@@ -1,0 +1,41 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid ghostwhite;
+  padding: 20px;
+  margin: auto;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: lightseagreen;
+  width: 20%;
+}
+
+a:hover {
+  color: turquoise;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  a {
+    text-align: right;
+    width: 40%;
+  }
+
+  .first-a {
+    display: none;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
